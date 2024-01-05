@@ -114,3 +114,118 @@ footer{
     border: none;
     cursor: pointer;
 }
+
+
+/* Bannar Section */
+
+.bannar_section{
+    padding: 30px 0;
+    background: url(./assests/moon_right.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.page_width{
+    width: 1250px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.inner_bannar_section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.inner_bannar_section .bannar_img{
+    padding: 20px;
+}
+
+.inner_bannar_section .bannar_img img{
+    border-radius: 50%;
+    width: 100%;
+}
+
+.bannar_content{
+    margin-top: 100px;
+}
+
+.bannar_content small{
+    border-radius: 30px;
+    background: #058B8C;
+    padding: 5px 15px;
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 0px; /* 0% */
+}
+
+.bannar_content .intro{
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.8px;
+    padding-top: 20px;
+}
+
+.bannar_content h2{
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 89px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -3.6px;
+}
+
+.bannar_content h2 span{
+    color: #058B8C;
+}
+
+.bannar_content .description{
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    text-align: justify;
+}
+
+.bannar_content .btn{
+    padding: 10px 30px;
+    margin-top: 20px;
+}
+
+.bannar_content .btn_1{
+    border-radius: 48px;
+    background: #8D0F11;
+    border: 2px solid #8D0F11;
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.20), 3px 4px 10px 0px rgba(0, 0, 0, 0.20) inset;
+    color: #FFF;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.bannar_content .btn_2{
+    border-radius: 48px;
+    border: 2px solid #1E1E1E;
+    color: #1E1E1E;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-left: 5px;
+}
